@@ -1,14 +1,13 @@
 class Gopassgen < Formula
   desc     "Generate secure passwords"
   homepage "https://github.com/Jmiwa/gopassgen"
-  version  "1.0.2"
+  version  "0.1.5"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Jmiwa/gopassgen/releases/download/v1.0.2/gopassgen-1.0.2-darwin-arm64.tar.gz"
-      sha256 "8b1c7a02e8ab2440ef8403e27d07bf8d2a64c8431000aca60cd5cf9bc72a6de0"
+      url "https://github.com/Jmiwa/gopassgen/releases/download/v0.1.5/gopassgen-0.1.5.tar.gz"
+      sha256 "1004f3ebf6a1d745e572240e639751ca27e4640c0ebcefda2d2c700b5049cd79"
     end
-    # Intel Mac や Linux を後で追加するなら、ここに url/sha256 ブロックを増やす
   end
 
   def install
