@@ -5,7 +5,7 @@ class Gopassgen < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Jmiwa/gopassgen/releases/download/v0.1.5/gopassgen-0.1.5.tar.gz"
+      url "https://github.com/Jmiwa/gopassgen/archive/refs/tags/v0.1.5.tar.gz"
       sha256 "1004f3ebf6a1d745e572240e639751ca27e4640c0ebcefda2d2c700b5049cd79"
     end
   end
